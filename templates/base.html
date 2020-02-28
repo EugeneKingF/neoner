@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>{% block title %}{% endblock %} - neoner.cc</title>
+</head>
+<body>
+<div class="page">
+{% block nav_bar_items %}{% endblock %}
+{% block content %}{% endblock %}
+
+<footer>
+    <p> Copyright &copy; 2020, neoner.cc</p>
+</footer>
+</div>
+</body>
+<script type=text/javascript src="{{ url_for('static', filename='js/main.js') }}"></script>
+</html>

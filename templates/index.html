@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %} URL shortener {% endblock %}
+
+{% block nav_bar_items %}
+    <div class="navbar">
+    <ul>
+    <li id="lego"><a href="/">NEONER.CC</a></li>
+    <li id="contact"><a href="/contact">Contact</a></li>
+    <li id="privacy-policy"><a href="/privacy-policy">Privacy Policy</a></li>
+    </ul>
+    </div>
+{% endblock %}
+{% block content %}
+<div class="content">
+<div class="form">
+    <form action="/" method="post">
+        <p>{{ form.link }}</p>
+        <p>{{ form.submit(onclick="submit()") }}</p>
+    </form>
+    <div class="result-div">
+        <p class="result">{{ result }}</p>
+    </div>
+    </div>
+</div>
+{% endblock %}
