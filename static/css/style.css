@@ -1,0 +1,93 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+input{
+    font-family: 'Open Sans', sans-serif;
+}.page{
+    width: 100%;
+    height: 100%;
+}p{
+    margin: 0;
+    padding: 0;
+  }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 100%;
+}li{
+    float: left;
+}#contact, #privacy-policy{
+    float: right;
+}li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.privacy-policy, .contact{
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    padding: 0 20%;
+}
+.content{
+    text-align: center;
+    width: 50%;
+    padding: 0 25%;
+    margin: 0;
+    min-height: calc(100vh - 50px - 38px);
+}
+ h4{
+     margin: 2vh;
+ }
+.form{
+    padding-top: 10vh;
+    text-align: center;
+}
+input[name="link"]{
+    outline: none;
+    border-radius: 6px;
+    padding: 6px;
+    border: #333 1px solid;
+    width: 400px;
+}
+input[name="submit"]{
+    background-color: #333333;
+    color: #fff;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: none;
+    padding: 6px;
+    width: 200px;
+}
+footer{
+    text-align: left;
+    font-size: 13px;
+    color: #ffffff;
+    align-self: auto;
+    background-color: #333;
+    padding: 10px;
+}
+p{
+    display: inline;
+}
+#report{
+    display: block;
+    color: white;
+    text-align: right;
+    text-decoration: none;
+}
+input{
+    padding: 0;
+    margin: 0;
+}
+.result-div{
+    padding: 10vh;
+}
